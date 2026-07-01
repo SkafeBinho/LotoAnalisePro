@@ -1,0 +1,29 @@
+[versions]
+compose = "1.7.6"
+kotlin = "2.0.0"
+hilt = "2.51.1"
+room = "2.6.1"
+retrofit = "2.11.0"
+coroutines = "1.8.1"
+
+[libraries]
+androidx-core = { module = "androidx.core:core-ktx", version = "1.13.1" }
+androidx-lifecycle = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version = "2.8.4" }
+
+compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
+compose-material3 = { module = "androidx.compose.material3:material3", version.ref = "compose" }
+compose-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose" }
+
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
+
+room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
+room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
+
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+
+coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+
+[plugins]
+android-application = { id = "com.android.application", version = "8.5.2" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version = "2.0.0" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
