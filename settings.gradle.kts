@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "LotoAnalisePro"
+rootProject.name = "LotoAnalisePro"        
 include(":app")
